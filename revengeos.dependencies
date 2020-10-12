@@ -21,6 +21,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "LineageOS/android_device_lineage_sepolicy",
+        "target_path":  "device/lineage/sepolicy",
+        "revision":     "lineage-18.0"
+    },
+    {
+        "remote":       "github",
         "repository":   "UtsavBalar1231/hardware_qcom-caf_display",
         "target_path":  "hardware/qcom-caf/sm8150/display",
         "revision":     "r11.0-raphael"
