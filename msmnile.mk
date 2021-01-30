@@ -178,7 +178,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.raphael
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_raphael
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
@@ -262,12 +262,12 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.raphael
+    android.hardware.light@2.0-service.xiaomi_msmnile
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service.raphael
+    vendor.lineage.livedisplay@2.0-service.xiaomi_msmnile
 
 # Media
 PRODUCT_PACKAGES += \
@@ -354,7 +354,7 @@ PRODUCT_PACKAGES += \
 
 # Power HAL
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.raphael-libperfmgr
+    android.hardware.power@1.3-service.xiaomi_sm8150-libperfmgr
 
 # Powerhint
 PRODUCT_COPY_FILES += \
@@ -362,7 +362,7 @@ PRODUCT_COPY_FILES += \
 
 # Powerstats
 PRODUCT_PACKAGES += \
-    android.hardware.power.stats@1.0-service.raphael
+    android.hardware.power.stats@1.0-service.xiaomi_sm8150
 
 # QMI
 PRODUCT_PACKAGES += \
